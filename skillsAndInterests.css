@@ -1,0 +1,439 @@
+html{
+    scroll-behavior: smooth;
+    }
+#aboutLink{
+    color:white;
+    font-size: 20px;
+}
+#aboutLink:hover{
+    color: yellow;
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#animation{
+    text-transform: uppercase;
+    letter-spacing: 0;
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+	-webkit-animation: textFill 80s linear infinite;
+	-webkit-transform: translate3d(0,0,0);
+    animation: textFill 80s linear infinite;
+    transform: translate3d(0,0,0);
+    position: relative;
+}
+@-webkit-keyframes textFill{
+	0% {
+        background-position: 0% 50%;
+    }
+	100% {
+        background-position: 100% 50%;
+    }
+}
+@keyframes textFill{
+    0% {
+        background-position: 0% 50%;
+    }
+	100% {
+        background-position: 100% 50%;
+    }
+}
+@-moz-keyframes textFill {
+    0% {
+        background-position: 0% 50%;
+    }
+	100% {
+        background-position: 100% 50%;
+    }
+}
+@-o-keyframes textFill {
+    0% {
+        background-position: 0% 50%;
+    }
+	100% {
+        background-position: 100% 50%;
+    }
+}
+@-ms-keyframes textFill {
+    0% {
+        background-position: 0% 50%;
+    }
+	100% {
+        background-position: 100% 50%;
+    }
+}
+body{
+    border-right: 150px solid orange;
+    border-left: 150px solid orange;
+    font-family: 'Rajdhani', sans-serif;
+    animation: 1s ease-out 0s 1 slideIn;
+    animation-fill-mode: backwards;
+}
+#book:hover{
+    opacity: 0.5;;
+}
+.bootFire{
+    animation-name: opacityOn;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+}
+#bootstrap{
+    width: 25%;
+    height: auto;
+    margin: 10px;
+}
+#bootstrap:hover{
+    opacity: 0.5;
+}
+#cloud:hover{
+    opacity: 0.5;;
+}
+#copyright{
+    color: plum;
+    letter-spacing: 3px;
+}
+.external-links{
+    letter-spacing: 30px;
+}
+#firebase{
+    width: 50%;
+    height: auto;
+}
+#firebase:hover{
+    opacity: 0.5;
+}
+footer{
+    text-align: center;
+    height: 400px; 
+    background: black;
+    border-top: 3px solid white;
+    border-left: none; 
+    border-right: none;
+    width: 126.6%;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: 1s ease-out 0s 1 slideIn;
+    animation-delay: 4s;
+    animation-fill-mode: backwards;
+    z-index: 1;
+}
+#git:hover{
+    opacity: 0.5;
+}
+#git:hover{
+    opacity: 0.5;
+}
+#github{
+    width: 40%;
+    height: auto;
+}
+#github:hover{
+    opacity: 0.5;
+}
+#gitLogo{
+    width: 59%;
+    height: auto;
+}
+#gitLogo:hover{
+    opacity: 0.5;
+}
+.headingSoftware{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    padding-right: 20px;
+}
+#headingSoftware{
+    font-size: 70px;
+    color: green;
+    text-align:center;
+    padding: 10px;
+    border: 3px solid yellow;
+    background-color: yellow;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    animation: 1s ease-out 0s 1 slideIn;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+    position:relative;
+    z-index: -1;
+}
+#homeLink{
+    color:white;
+    font-size: 20px;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+#homeLink:hover{
+    color: yellow;
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#insta:hover{
+    opacity: 0.5;;
+}
+.interests{
+    text-align: center;
+    border: 10px double orange;
+    position: relative;
+    animation-name: opacityOn;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+}
+.interestsBackground{
+    background-color: rgba(70, 5, 70, 0.678);
+    position: relative;
+    animation-name: opacityOn;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+}
+#joyExpression{
+    margin-top:-25px;
+}
+.languages{
+    text-align: center;
+    animation-name: opacityOn;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+}
+@keyframes opacityOn{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-webkit-keyframes opacityOn{
+	0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-moz-keyframes opacityOn {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-o-keyframes opacityOn {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-ms-keyframes opacityOn {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#languages{
+    font-size: 85px;
+}
+#languages:hover{
+    color: green;
+    text-decoration: underline;
+}
+#linked:hover{
+    opacity: 0.5;
+}
+#nav{
+    border: 1px solid navy;
+    background-color: navy;
+    width: 100%;
+    animation: 1500ms ease-out 0s 1 slideIn;
+    animation-delay: 500ms;
+    animation-fill-mode: backwards;
+}
+#pic:hover{
+    opacity: .5;
+}
+#profile{
+    position:absolute;
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    left:-75px;
+    z-index: -1;
+}
+#profileReversed{
+    position: absolute;
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction:row-reverse;
+    right: -75px;
+    z-index: -1;
+}
+#projectLink{
+    color:white;
+    font-size: 20px;
+}
+#projectLink:hover{
+    color: yellow;
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#site{
+    text-decoration: none;
+    color: plum;
+    font-size: 20px;
+    text-shadow: 4px 4px 8px plum;
+}
+#site:hover{
+    color: white;
+}
+#skillsHeader{
+    color:white;
+    border: 1px solid rgb(70, 5, 70);
+    background-color: rgb(70, 5, 70);
+    border-bottom-right-radius: 50px;
+    width: 30%;
+    font-size:100px;
+    text-align:center;
+    animation: 1s ease-out 0s 1 slideIn;
+    animation-delay: 500ms;
+    animation-fill-mode: backwards;
+    position:relative;
+    z-index: -1;
+}
+@keyframes slideIn{
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@-webkit-keyframes slideIn{
+	0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@-moz-keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@-o-keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@-ms-keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+#slack{
+    width: 50%;
+    height: auto;
+}
+#slack:hover{
+    opacity: 0.5;
+}
+span{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    letter-spacing: -16px;
+    color:green;
+    animation-name: opacityOn;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+}
+#squiggly:hover{
+    color: orange;
+}
+#sweetness{
+    font-family: 'Itim', cursive;
+    color:white;
+}
+#topLink{
+    color:white;
+    font-size: 20px;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+#topLink:hover{
+    color: yellow;
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul a{
+    text-decoration: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: right;
+    letter-spacing: 10px;
+    color: white;
+}
+ul a:hover{
+    color:orange;
+}
+ul li{
+    list-style: none;
+    color: white;
+    font-size: 50px;
+    text-shadow: 0px 0px 16px black;
+    position:relative;
+    z-index: 5;
+}
+ul li:hover{
+    color:tomato;
+    text-shadow: 4px 4px 4px black; 
+}
+#visualStudioCode{
+    width: 55%;
+    height: auto;
+}
+#visualStudioCode:hover{
+    opacity: 0.5;
+}
