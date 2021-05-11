@@ -101,6 +101,14 @@ body{
 #book:hover{
     opacity: 0.5;;
 }
+#blueBadge{
+    border: 3px solid blue;
+    box-shadow: 0px 0px 16px navy;
+    margin-bottom:50px;
+}
+#blueBadge:hover{
+    opacity: 0.5;
+}
 #button{
     font-size: 30px;
     border-radius: 15%;
@@ -809,6 +817,14 @@ nav{
     padding: 50px;
     margin: 50px;
     border: 3px solid black;
+}
+#redBadge{
+    border: 3px solid blue;
+    box-shadow: 0px 0px 16px navy;
+    margin-bottom:50px;
+}
+#redBadge:hover{
+    opacity: 0.5;
 }
 #resourceful{
     animation-delay: 24s;

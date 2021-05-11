@@ -438,6 +438,7 @@ h2{
     font-size:50px;
     z-index: 1;
     text-shadow: 0px 0px 16px white;
+    text-decoration: overline;
 }
 h3{
     margin-top: -50px;
@@ -556,6 +557,7 @@ html{
     text-indent: 50px;
     color: white;
     text-align: left;
+    text-shadow: 0px 0px 16px navy;
 }
 #projectLink{
     color:white;
